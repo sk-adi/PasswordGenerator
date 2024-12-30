@@ -108,7 +108,7 @@ function MainFile() {
           </div>
           <div className="slider mt-6">
             <h2 id='thePara'className='text-lg font-semibold text-gray-700 mb-2'>Password Length</h2>
-            <input type="range" className="w-full h-2 bg-gray-300 rounded-lg cursor-pointer" min={0} max={100} id="therange" value={num} onChange={password} />
+            <input type="range" className="w-full h-2 bg-gray-300 rounded-lg cursor-pointer" min={4} max={100} id="therange" value={num} onChange={password} />
           </div>
           <div className="other mt-6 flex justify-start space-x-4">
             <div className="flex items-center">
